@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSizeViewer", "FolderSizeViewer\FolderSizeViewer.csproj", "{254D0C0A-27FB-43F8-9804-CC1AFEC03B65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254D0C0A-27FB-43F8-9804-CC1AFEC03B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254D0C0A-27FB-43F8-9804-CC1AFEC03B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254D0C0A-27FB-43F8-9804-CC1AFEC03B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254D0C0A-27FB-43F8-9804-CC1AFEC03B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F08FD83-7AF3-4DA9-B028-6ACC48814F13}
+	EndGlobalSection
+EndGlobal
