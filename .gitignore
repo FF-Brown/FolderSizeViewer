@@ -1,3 +1,4 @@
 *.user
 FolderSizeViewer/bin/
 FolderSizeViewer/obj/
+.vs/

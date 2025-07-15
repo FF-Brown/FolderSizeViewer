@@ -1,0 +1,21 @@
+pipeline {
+	agent any
+	
+	tools {
+		msbuild "MSBuild2022"
+	}
+	
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/FF-Brown/FolderSizeViewer.git', branch: 'master'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'msbuild FolderSizeViewer.sln /p:Configuration=Release %MSBUILD_ARGS%'
+            }
+        }
+    }
+}
